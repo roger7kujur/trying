@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greenworld</title>
+    
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    *{
+        margin: 0 ;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: bold;
+        color: black;
+
+        
+
+    }
+    body{
+        font-family:  "Montserrat", sans-serif;
+        background-color: grey;
+    }
+    header{
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid black;
+
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+    }
+    ul li a {
+        margin: 0 5px;
+        border: 2px solid white ;
+        padding: 0 10px;
+        text-decoration: none;
+        border-radius: 50px;
+    }
+    .logo{
+        border: 2px solid white;
+        padding: 10px 5px;
+    }
+    .signup:hover{
+        background-color: brown;
+        color:black;
+    }
+    main{
+        display: flex;
+        height: 90vh;
+        justify-content: space-evenly;
+        align-items: center;
+        margin:0 150px;
+
+    }
+    .contentleft{
+        flex:1
+
+    }
+    .contentleft{
+        flex:2
+    }
+    .contentleft{
+        flex:1
+    }
+    .alo{
+        max-width: 500px;
+        height: auto;
+    }
+    .btn{
+        padding: 15px 30px;
+        background-color: aqua;
+        outline:none;
+        border:none;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"> logo</div>
+        <nav>
+            <ul>
+                <li> <a href="#">home </a></li>
+                <li> <a href="#">offer </a></li>
+                <li> <a href="#">buy now </a></li>
+                <li> <a href="#">sell now</a></li>
+                <li> <a href="#">about us </a></li>
+                <li> <a href="#">sign up  </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contentleft"><h2>Alovera</h2>
+
+        </div>
+        
+        <div class="contentmid">  <p>Aloe vera is a medicinal plant with antioxidant and antibacterial properties. Aloe vera benefits can include reducing dental plaque, accelerating wound healing,<br>
+             preventing wrinkles, and managing blood sugar.
+             <button class="btn">buy now</button>
+
+        </p>
+        </div>
+           
+        <div class="contentright"> 
+            <img src="alo.jpg" class="alo">
+        </div>
+
+
+
+    </main>
+    
+</body>
+</html>
